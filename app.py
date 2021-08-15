@@ -51,7 +51,7 @@ class MainWindow(tk.Tk):
         self.resizable(False, False)
         self.protocol("WM_DELETE_WINDOW", self.onClose)
 
-        self.modulesLable = tk.Label(self, text ="Serviços Paroquiais", font = ("bold", 20))
+        self.modulesLable = tk.Label(self, text ="Serviços Paroquiais", font = ("Times bold", 20))
         self.selectedModule = tk.StringVar()
         self.modulesCombobox = ttk.Combobox(self, textvariable = self.selectedModule)
         self.modulesCombobox['values'] = self.files #Available modules

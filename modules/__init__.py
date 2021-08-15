@@ -1,1 +1,1 @@
-from . import formularioDizimo
+from . import formulario_dizimo
